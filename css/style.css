@@ -12,3 +12,34 @@
 #park-header {
     font-family: 'Anton';
 }
+#DDSH{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Anton';
+}
+.balls{
+    padding: 18px;
+    /*border: 3px lightgrey solid;*/
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.color1{
+    background: #E6563B;
+}
+.color2{
+    background: #EB9D3A;
+}
+.color3{
+    background: #7CB06C
+}
+.color4{
+    background: #00ABA9;
+}
