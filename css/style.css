@@ -43,3 +43,29 @@
 .color4{
     background: #00ABA9;
 }
+
+.big-balls {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    color: white;
+    font-family: 'Anton';
+    margin: 10px;
+}
+
+#design-ball {
+    background: #E6563B;
+}
+
+#develop-ball {
+    background: #EB9D3A
+}
+
+#support-ball {
+    background: #7CB06C
+}
+
+#host-ball {
+    background: #00ABA9
+}
