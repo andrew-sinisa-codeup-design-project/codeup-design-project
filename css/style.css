@@ -5,6 +5,11 @@
     background: #E6563B;
 }
 
+#round-logo {
+    height: 105px;
+    width: 105px;
+}
+
 #headline {
     font-family: 'Anton';
 }
