@@ -89,7 +89,7 @@
 /*}*/
 
 #selected-header {
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Abel';
     margin-top: 50px;
     margin-bottom: 40px;
@@ -135,3 +135,33 @@
 .bring-the-balls-forward {
     z-index: 1;
 }
+
+div.col-4.d-none.d-md-block {
+    padding: 20px;
+}
+
+div.card.mb-3 {
+    border: none;
+}
+
+h5.card-title {
+    font-family: 'Anton';
+}
+
+nav.navbar.d-block.d-sm-none {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+}
+
+a.nav-item.nav-link {
+    color: black;
+    font-family: 'Abel';
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5px;
+
+}
+
+/*#security-image {*/
+/*    height: 293px;*/
+/*}*/
