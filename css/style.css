@@ -188,3 +188,18 @@ div.col-4.d-none.d-md-block {
 /*#security-image {*/
 /*    height: 293px;*/
 /*}*/
+.main-contain{
+    margin: 0;
+    padding: 8px 0 8px 0;
+}
+.navbar{
+    padding: 8px 0 8px 0;
+}
+img#round-logo{
+    background: transparent;
+}
+
+.d-flex{
+    display: flex;
+    margin-right: auto;
+}
