@@ -166,7 +166,10 @@ a.nav-item.nav-link {
     display: inline-flex;
     flex-direction: row;
     padding: 5px;
+}
 
+div.col-4.d-none.d-md-block {
+    border: 1px solid #F0F0F0;
 }
 
 .nav-bg{
