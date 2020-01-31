@@ -9,10 +9,12 @@
     background: #E6563B;
 }
 
-#round-logo {
+.round-logo {
     height: 105px;
     width: 105px;
+    background: transparent;
 }
+
 
 #headline {
     font-family: 'Anton';
@@ -97,36 +99,12 @@
     margin-bottom: 40px;
 }
 
-/*#h1#selected-header {*/
-/*    margin-top: 20px;*/
-/*    font-family: 'Abel';*/
-/*}*/
-
-/*h4#park-header {*/
-/*    margin-bottom: 2em;*/
-/*}*/
-
-/*.small-balls {*/
-/*    margin: 5px 0px;*/
-/*    padding: 15px;*/
-/*    !*border: 3px lightgrey solid;*!*/
-/*    border-radius: 50%;*/
-/*    height: 10px;*/
-/*    width: 10px;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-around;*/
-/*    align-items: center;*/
-/*}*/
 
 .card-img-top {
     border: 12px solid #E6E6E6;
     /*margin: 12px;*/
 }
 
-/*div.col-12.text-center {*/
-/*    background: #f0f0f0;*/
-/*}*/
 
 .featured {
     display: flex;
@@ -168,6 +146,11 @@ a.nav-item.nav-link {
     padding: 5px;
 }
 
+.navbar-xs {
+    display: flex;
+    justify-content: center;
+}
+
 div.col-4.d-none.d-md-block {
     border: 1px solid #F0F0F0;
 }
@@ -184,10 +167,6 @@ div.col-4.d-none.d-md-block {
     font-family: 'Abel', sans-serif;
 }
 
-
-/*#security-image {*/
-/*    height: 293px;*/
-/*}*/
 .main-contain{
     margin: 0;
     padding: 8px 0 8px 0;
