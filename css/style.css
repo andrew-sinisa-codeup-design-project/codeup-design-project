@@ -169,6 +169,19 @@ a.nav-item.nav-link {
 
 }
 
+.nav-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 15px 0 12px 0;
+    height: 60px;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
+}
+
+
 /*#security-image {*/
 /*    height: 293px;*/
 /*}*/
