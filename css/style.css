@@ -16,17 +16,19 @@
 
 #headline {
     font-family: 'Anton';
+    margin-top: 50px;
 }
 
 #park-header {
     font-family: 'Anton', sans-serif;
+    margin: 50px 0;
 }
 .DDSH{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Anton' sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 .balls{
     padding: 18px;
@@ -62,7 +64,7 @@
     border: 8px solid white;
     color: white;
     font-family: 'Anton', sans-serif;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 #design-ball {
@@ -70,15 +72,15 @@
 }
 
 #develop-ball {
-    background: #EB9D3A
+    background: #EB9D3A;
 }
 
 #support-ball {
-    background: #7CB06C
+    background: #7CB06C;
 }
 
 #host-ball {
-    background: #00ABA9
+    background: #00ABA9;
 }
 
 
@@ -91,7 +93,7 @@
 #selected-header {
     font-size: 1em;
     font-family: 'Abel';
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -119,7 +121,7 @@
 
 .card-img-top {
     border: 12px solid #E6E6E6;
-    margin: 12px;
+    /*margin: 12px;*/
 }
 
 /*div.col-12.text-center {*/
@@ -138,9 +140,14 @@
 
 div.col-4.d-none.d-md-block {
     padding: 20px;
+    background: #F0F0F0;
 }
 
 div.card.mb-3 {
+    border: none;
+}
+
+div.card-body.text-left {
     border: none;
 }
 
