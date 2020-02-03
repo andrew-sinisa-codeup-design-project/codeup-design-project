@@ -85,12 +85,9 @@
     background: #00ABA9;
 }
 
-
-/*#featured-header {*/
-/*    font-size: 1em;*/
-/*    font-family: 'Abel';*/
-/*    margin: auto;*/
-/*}*/
+#featured-heading {
+    margin-left: 15px;
+}
 
 #selected-header {
     font-size: 1em;
@@ -183,4 +180,18 @@ img#round-logo{
 
 .navbar-light{
     padding: 0 !important;
+}
+
+#twitter-card {
+    font-family: 'Abel';
+}
+
+#tweet {
+    font-family: 'Abel';
+}
+div#twitter-card.card-body.text-left {
+    border: none !important;
+    border-style: none none !important;
+    padding: 0;
+    margin: 0;
 }
